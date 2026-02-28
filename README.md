@@ -1,8 +1,23 @@
-# 💀 RANA.Nj ULTRA-STRIKE (V5.0)
-Welcome to the official repository of **RANA.Nj**. This is a high-powered network testing tool designed for mobile (Termux).
+# Network Checker Tool
 
-### 🚀 How to Install and Run:
-Copy and paste the following command into your Termux:
+Simple Python-based network status checker.
 
-```bash
-pkg update && pkg upgrade -y && pkg install python curl -y && pip install colorama && curl -s https://raw.githubusercontent.com/rssohel/rana.py/main/rana-vai.py -o rana-vai.py && python rana-vai.py
+## Features
+- Check if a server is online
+- Simple and fast
+- Works on Termux / Linux / Windows
+
+## Installation (Termux)
+
+pkg update
+pkg install python -y
+pip install -r requirements.txt
+
+## Run
+
+python rana-vai.py
+
+## Disclaimer
+
+This tool is for educational and legal testing purposes only.
+Do not use against systems without permission.
